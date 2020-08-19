@@ -92,52 +92,19 @@ img:hover {
     transform: rotate(540deg);
 }
 
-h1 {
-    color: #ffffff;
-    margin: 200px auto;
-    text-align: center;
-    font-size: 60px;
-    max-width: 1400px;
-    position: relative;
-}
-
-h1:before {
-    content: "";
-    display: block;
-    width: 500px;
-    height: 2px;
-    background: #ffffff;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: -2;
-}
-
-h1:after {
-    content: "";
-    display: block;
-    width: 500px;
-    height: 2px;
-    background: #ffffff;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    z-index: -2;
-}
-
 p {
     position: absolute;
     text-align: left;
     color: white;
     font-size: 20px;
     left: 22%;
-    top: 35%;
+    top: 36%;
 }
 
 .profile {
     position: absolute;
     left: 10%;
-    top: 35%;
+    top: 36%;
 }
 
 .rotate {
@@ -155,7 +122,23 @@ p {
 .top-cen {
     filter: brightness(0) invert(1);
     position: absolute;
-    top: 12.8%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.cen {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head {
+    color: white;
+    font-size: 50px;
+}
+
+
+
+    

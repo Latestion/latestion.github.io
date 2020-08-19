@@ -4,13 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Me</title>
+        <style>
+            h1 {
+                display: flex;
+                flex-direction: row;
+            }
+        
+            h1:before,
+            h1:after {
+                content: "";
+                flex: 1 1;
+                border-bottom: 2px solid #ffffff;
+                margin: auto;
+            }
+        </style>
     </head>
     <body>
-        <h1>About Me</h1>
+        <div class="cen"><h1 class="head con">About Me<h1></h1></div>
+
         <img src="./images/profile.png" class="profile" width="10%" alt="profile">
-        <div class="v1"></div>
-        <div class="v2"></div>
-        <div class="v3"></div>
         <p> Howdy! My name is Udit Bansal(Latestion), I am 15 years old. Currently learning Java, Html, CSS and JavaScript! I know a <br>lot about python have about 3 years of experience in it and I have tried to program in other language like C#, C++ and C. <br><br>
             Currently I live in India and prefer object-oriented programming languages such as Java.
              I started programming at <br> 2016-2017 with my main language at Python because I wanted to create discord and bots automate things which I use <br> in my daily life. <br><br>
@@ -28,8 +40,9 @@
             <a href="mailto:uditb365@gmail.com" target="_blank"><img src="./images/gmail.png" class="gmail img-fluid" height="10%" width="5%" alt="gmail"></a>
         </div>
         <div class="top-cen">
-            <img src="./images/latest-1.png" width="100%" height="300px" class="rotate" alt="latestion">
+            <img src="./images/latest-1.png" height="300px" width="100%" class="rotate image_fluid" alt="latestion">
         </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
