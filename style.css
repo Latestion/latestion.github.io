@@ -1,5 +1,5 @@
 body {
-    background-image: url('./images/wallhaven-ym1267.jpg');
+    background-image: url('images/wallhaven-ym1267.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -16,7 +16,7 @@ head {
 .centered {
     filter: brightness(0) invert(1);
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -29,36 +29,36 @@ head {
     0%   {transform: rotate(0deg);}
     25%  {transform: rotate(2deg);}
     50%  {transform: rotate(0deg);}
-    75%  {transform: rotate(-2deg);}
+    75%  {transform: rotate(-2.5deg);}
     100% {transform: rotate(0deg);}
 }
 
 .github {
     position: absolute;
-    bottom: 4%;
-    left: 40%;
+    bottom: 2%;
+    left: 35.5%;
     opacity: 0.85;
 }
 
 .twitter {
     position: absolute;
-    bottom: 4%;
-    left: 47.7%;
+    bottom: 2%;
+    left: 43.2%;
     opacity: 0.85;
 }
 
 .discord {
     position: absolute;
-    bottom: 4%;
-    left: 55.4%;
+    bottom: 2%;
+    left: 51.3%;
     opacity: 0.85;
 }
 
-.menu {
+.next {
     position: absolute;
-    top: 5%;
-    right: 4%;
-    opacity: 0.9;
+    bottom: 2%;
+    left: 59%;
+    opacity: 0.85;
     filter: brightness(0) invert(1);
 }
 
@@ -74,6 +74,19 @@ head {
     opacity: 1;
 }
 
-.menu:hover {
+.next:hover {
     opacity: 1;
+}
+
+img:hover {
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
 }

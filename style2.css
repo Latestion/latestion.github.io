@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    background-image: url('./images/immmmmm.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.github {
+    position: absolute;
+    bottom: 2%;
+    left: 35.5%;
+    opacity: 0.85;
+}
+
+.twitter {
+    position: absolute;
+    bottom: 2%;
+    left: 43.2%;
+    opacity: 0.85;
+}
+
+.discord {
+    position: absolute;
+    bottom: 2%;
+    left: 51.3%;
+    opacity: 0.85;
+}
+
+.next {
+    position: absolute;
+    bottom: 2%;
+    left: 59%;
+    opacity: 0.85;
+    filter: brightness(0) invert(1);
+    transform: rotate(180deg);
+}
+
+.gmail {
+    position: absolute;
+    bottom: 13%;
+    left: 47.25%;
+    opacity: 0.85;
+    filter: brightness(0) invert(1);
+}
+
+.github:hover {
+    opacity: 1;
+}
+
+.twitter:hover {
+    opacity: 1;
+}
+
+.discord:hover {
+    opacity: 1;
+}
+
+.next:hover {
+    opacity: 1;
+}
+
+.gmail:hover {
+    opacity: 1;
+}
+
+img:hover {
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.next:hover {
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+    -webkit-transform: rotate(540deg);
+    -moz-transform: rotate(540deg);
+    -o-transform: rotate(540deg);
+    -ms-transform: rotate(540deg);
+    transform: rotate(540deg);
+}
+
+h1 {
+    color: #ffffff;
+    margin: 200px auto;
+    text-align: center;
+    font-size: 60px;
+    max-width: 1400px;
+    position: relative;
+}
+
+h1:before {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+p {
+    position: absolute;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    left: 22%;
+    top: 35%;
+}
+
+.profile {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(2deg);}
+    50%  {transform: rotate(0deg);}
+    75%  {transform: rotate(-2.5deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.top-cen {
+    filter: brightness(0) invert(1);
+    position: absolute;
+    top: 12.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
